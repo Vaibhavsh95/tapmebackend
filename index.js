@@ -68,7 +68,7 @@ app.post(`/bot${token}`, (req, res) => {
 });
 
 // Set webhook to your Render.com server URL
-const webhookUrl = `https://co3-labs-task-tapme-telegram-web-app.onrender.com/bot${token}`;
+const webhookUrl = `https://tapmebackend-1.onrender.com/bot${token}`;
 bot.setWebHook(webhookUrl).then(() => {
   console.log(`Webhook set to ${webhookUrl}`);
 }).catch(err => {
